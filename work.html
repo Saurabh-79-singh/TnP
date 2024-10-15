@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Progress Monitoring</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Construction Progress Monitoring</h2>
+        <p>Upload images, and our system will process them to assess the current construction phase, track changes, and provide real-time feedback.</p>
+        
+        <form id="uploadForm">
+            <label for="upload">Upload Construction Site Image:</label>
+            <input type="file" id="upload" accept="image/*">
+            <button type="button" id="submitBtn">Upload & Process</button>
+        </form>
+
+        <div id="feedback" class="feedback"></div>
+    </div>
+
+    <script src="work.script.js"></script>
+</body>
+</html>

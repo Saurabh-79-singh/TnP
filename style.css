@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: url('construction-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+.cta-btn {
+    background-color: #e67e22;
+    padding: 0.7rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+#features, #how-it-works, #about, #contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.feature-item {
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
